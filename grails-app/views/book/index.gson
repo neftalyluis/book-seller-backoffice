@@ -1,0 +1,8 @@
+import mx.neftaly.bookseller.Book
+
+model {
+	Iterable<Book> bookList
+}
+
+json tmpl.book(bookList ?: [])
+
